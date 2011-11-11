@@ -60,3 +60,7 @@ group :deploy do
   gem "warbler"
 end
 # END:deploy
+
+# START:trinidad_diagnostics_extension
+gem "trinidad_diagnostics_extension"
+# END:trinidad_diagnostics_extension
