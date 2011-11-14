@@ -9,6 +9,6 @@ extensions:
   resque:
     queues: critical, normal, low
     count:  1
-    redis_host: 'localhost:6379'
     path: 'lib/workers'
+    redis_host: 'localhost:6379'
   # END:resque
