@@ -1,4 +1,4 @@
-class DeleteOldStatuses
+class DeleteOldStatuses < TrinidadScheduler.Cron "0 */24 * * *"
   def run
     ids = Status.all(:conditions => ["created_at < ?", 24.hours.ago])
 
@@ -10,5 +10,3 @@ class DeleteOldStatuses
     end
   end
 end
-
-DeleteOldStatuses.new.run

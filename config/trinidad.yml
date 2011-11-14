@@ -1,4 +1,7 @@
 # START:diagnostics
+# START:scheduler
 extensions:
   diagnostics:
-# END:diagnostics
+  # END:diagnostics
+  scheduler:
+  # END:scheduler

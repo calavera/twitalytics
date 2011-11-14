@@ -65,3 +65,6 @@ end
 gem "trinidad"
 gem "trinidad_diagnostics_extension"
 # END:trinidad_diagnostics_extension
+# START:trinidad_scheduler_extension
+gem "trinidad_scheduler_extension"
+# END:trinidad_scheduler_extension
