@@ -4,7 +4,7 @@ class DeleteOldStatuses < TrinidadScheduler.Cron "0/10 * * * * ?"
   # START:run
   def run
     ActiveRecord::Base.connection_pool.with_connection do
-      ids = Status.all(:conditions => ["created_at < ?", 24.hours.ago])
+      ids = Status.all(:conditions => ["created_at < ?", 30.days.ago])
 
       if ids.size > 0
         Status.destroy(ids)
