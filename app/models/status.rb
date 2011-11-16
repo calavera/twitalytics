@@ -13,7 +13,9 @@ class Status < ActiveRecord::Base
           existing
     end
 
+    # START:resque
     Resque.enqueue(UpdateAnalytics)
+    # END:resque
 
     r
   end
