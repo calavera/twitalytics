@@ -51,6 +51,9 @@ end
 # START:production
 group :production do
   gem 'jdbc-postgres'
+  # START:therubyrhino
+  gem "therubyrhino"
+  # END:therubyrhino
 end
 # END:production
 
@@ -59,6 +62,10 @@ group :deploy do
   gem "net-ssh", :require => "net/ssh"
   gem "net-scp", :require => "net/scp"
   gem "warbler"
+  # START:capistrano
+  gem "capistrano"
+  gem "ffi-ncurses"
+  # END:capistrano
 end
 # END:deploy
 
@@ -72,3 +79,4 @@ gem "trinidad_scheduler_extension"
 # START:trinidad_resque_extension
 gem "trinidad_resque_extension"
 # END:trinidad_resque_extension
+
