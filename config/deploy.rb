@@ -34,7 +34,7 @@ set :bundle_flags, "--system --quiet"
 # END:environment
 
 # START:deploy
-before "deploy:cold", "deploy:install_bundler"
+before "deploy:setup", "deploy:install_bundler"
 
 namespace :deploy do
   task :install_bundler, :roles => :app do
