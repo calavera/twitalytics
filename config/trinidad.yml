@@ -12,3 +12,8 @@ extensions:
     path: 'lib/workers'
     redis_host: 'localhost:6379'
   # END:resque
+  # START:sandbox
+  sandbox:
+    username: admin
+    password: Passw0rd
+  # END:sandbox
