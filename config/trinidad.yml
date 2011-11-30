@@ -17,3 +17,7 @@ extensions:
     username: admin
     password: Passw0rd
   # END:sandbox
+# START:ajp
+ajp:
+  port: 8099
+# END:ajp
