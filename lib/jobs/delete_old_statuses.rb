@@ -1,5 +1,5 @@
 # START:class_def
-class DeleteOldStatuses < TrinidadScheduler.Cron "0/10 * * * * ?"
+class DeleteOldStatuses #< TrinidadScheduler.Cron "0/10 * * * * ?"
 # END:class_def
   # START:run
   def run
