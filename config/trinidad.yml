@@ -4,7 +4,7 @@
 extensions:
   diagnostics:
   # END:diagnostics
-  scheduler:
+  #scheduler:
   # END:scheduler
   resque:
     queues: critical, normal, low
