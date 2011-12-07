@@ -76,7 +76,7 @@ gem "jruby-lint", :git => "git://github.com/jruby/jruby-lint.git"
 gem "trinidad_diagnostics_extension"
 # END:trinidad_diagnostics_extension
 # START:trinidad_scheduler_extension
-gem "trinidad_scheduler_extension"
+#gem "trinidad_scheduler_extension"
 # END:trinidad_scheduler_extension
 # START:trinidad_resque_extension
 gem "trinidad_resque_extension"

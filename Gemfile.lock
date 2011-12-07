@@ -246,8 +246,6 @@ GEM
       sinatra-flash
       sinatra-respond_to
       trinidad (>= 1.0.1)
-    trinidad_scheduler_extension (0.1.1)
-      trinidad_jars
     turn (0.8.3)
       ansi
     tweetstream (1.0.4)
@@ -312,7 +310,6 @@ DEPENDENCIES
   trinidad_diagnostics_extension
   trinidad_resque_extension
   trinidad_sandbox_extension
-  trinidad_scheduler_extension
   turn
   tweetstream (= 1.0.4)
   twitter (~> 1.7.2)
