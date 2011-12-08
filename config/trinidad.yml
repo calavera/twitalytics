@@ -18,6 +18,6 @@ extensions:
     password: Passw0rd
   # END:sandbox
 # START:ajp
-ajp:
-  port: 8099
+#ajp:
+#  port: 8099
 # END:ajp
