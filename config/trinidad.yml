@@ -9,7 +9,7 @@ extensions:
   resque:
     queues: critical, normal, low
     count:  1
-    path: 'lib/workers'
+    disable_web: true
     redis_host: 'localhost:6379'
   # END:resque
   # START:sandbox

@@ -110,7 +110,6 @@ GEM
     hike (1.2.1)
     http_parser.rb (0.5.3-java)
     i18n (0.6.0)
-    jdbc-mysql (5.1.13)
     jdbc-postgres (9.0.801)
     jdbc-sqlite3 (3.7.2)
     jquery-rails (1.0.17)
@@ -290,7 +289,6 @@ DEPENDENCIES
   ffi-ncurses
   get_back
   headless
-  jdbc-mysql
   jdbc-postgres
   jdbc-sqlite3
   jquery-rails
